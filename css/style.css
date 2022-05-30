@@ -1,0 +1,80 @@
+body {
+  background-color: #064663; }
+
+header .encabezado {
+  background-image: url(../img/img9.jpg);
+  background-size: cover;
+  text-align: center;
+  color: #000000;
+  font-size: 50px;
+  font-family: cursive; }
+
+nav .navbar .container-fluid {
+  background-color: #345b63; }
+  nav .navbar .container-fluid .navbar-brand {
+    color: #d4ecdd; }
+  nav .navbar .container-fluid .collapse .navbar-nav {
+    font-size: 1.3rem;
+    list-style-type: none;
+    padding: 0.3rem;
+    margin: 0.5rem;
+    font-weight: 100;
+    text-decoration: none;
+    width: 100%;
+    background-color: #345b63;
+    justify-content: center;
+    gap: 1rem; }
+    nav .navbar .container-fluid .collapse .navbar-nav .nav-item :hover {
+      background-color: #9cb7f1; }
+    nav .navbar .container-fluid .collapse .navbar-nav .nav-item a {
+      color: #d4ecdd;
+      font-weight: 500; }
+
+.sub-titulo {
+  color: #000000;
+  text-align: center;
+  font-size: 2rem; }
+
+.sub-main {
+  justify-items: center;
+  display: grid;
+  justify-content: center;
+  grid-template-areas: "parrafo1 parrafo1" "parrafo2 parrafo2" "imagen-1 imagen-1" "imagen-2 imagen-2" "imagen-3 imagen-3" "imagen-4 imagen-4"; }
+  .sub-main .parrafo1 {
+    grid-area: parrafo1;
+    text-align: center;
+    color: darkgray; }
+  .sub-main .parrafo2 {
+    grid-area: parrafo2;
+    margin-top: 25px;
+    text-align: center;
+    color: darkgray; }
+  .sub-main .imagen-1 {
+    grid-area: imagen-1; }
+  .sub-main .imagen-2 {
+    grid-area: imagen-2; }
+  .sub-main .imagen-3 {
+    grid-area: imagen-3; }
+  .sub-main .imagen-4 {
+    grid-area: imagen-4; }
+
+footer {
+  background-color: #ecb365;
+  margin: 25px;
+  height: 1.7rem; }
+  footer p h4 {
+    text-align: center; }
+
+@media screen and (min-width: 600px) {
+  .sub-main {
+    justify-items: center;
+    display: grid;
+    justify-content: center;
+    grid-template-areas: "parrafo1 parrafo1" "parrafo2 parrafo2" "imagen-1 imagen-1" "imagen-2 imagen-2" "imagen-3 imagen-3" "imagen-4 imagen-4"; } }
+
+@media screen and (min-width: 1200px) {
+  .sub-main {
+    justify-items: center;
+    display: grid;
+    justify-content: center;
+    grid-template-areas: "parrafo1 parrafo1" "parrafo2 parrafo2" "imagen-1 imagen-2" "imagen-3 imagen-4"; } }
